@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullLayout">
+        <attr name="stretchHeight" format="integer|reference"/>
+        <attr name="isLimitStretch" format="boolean"/>
+
+        <attr name="style">
+            <enum name="margin" value="0"/>
+            <enum name="padding" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
