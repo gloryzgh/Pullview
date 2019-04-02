@@ -3,7 +3,18 @@
 
 引用方式---添加gradle依赖
 
+项目添加出
 
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://dl.bintray.com/ghzhangcode/maven' }
+
+    }
+}
+
+app添加
 implementation 'com.ghzhang:pulllibrary:1.0'
 
 
