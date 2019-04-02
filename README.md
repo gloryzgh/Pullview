@@ -1,9 +1,14 @@
 # Pullview
 可滑动的LinearLayout
 
-引用方式
+引用方式---添加gradle依赖
+
 
 implementation 'com.ghzhang:pulllibrary:1.0'
+
+
+
+
 
 有两种滑动模式margin 和 padding，可以在xml中设置
 
